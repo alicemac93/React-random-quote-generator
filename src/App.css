@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.quote-container {
+    border:  1px solid rgb(202, 202, 202);
+    border-radius: 6.5px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding-top: 3%;
+    width: 600px;
+    height: 220px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.quote-container:hover {
+    cursor: pointer;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 700;
+}
+.author {
+    font-style: italic;
+    padding-top: 40px;
+}
+
+.description{
+    position: absolute;
+    font-size: 12px;
+    bottom: 10px;
+    left: 30%
+}
+
